@@ -1,0 +1,1 @@
+ E:\\flutter\\recipes\\.dart_tool\\flutter_build\\1dec540c85411d2f9b143e579e23a7ee\\native_assets.yaml: 
