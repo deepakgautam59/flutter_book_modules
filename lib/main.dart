@@ -14,6 +14,7 @@ class RecipeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Recipe Calculator',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
       
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

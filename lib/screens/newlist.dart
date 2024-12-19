@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recipes/screens/cards/card1.dart';
+import 'package:recipes/screens/cards/card2.dart';
+import 'package:recipes/screens/cards/card3.dart';
 
 class FooderLich extends StatefulWidget {
   const FooderLich({super.key});
@@ -12,8 +14,8 @@ class _FooderLichState extends State<FooderLich> {
   int _selectedIndex = 0;
   static List<Widget> pages=<Widget>[
     const Card1(),
-    Container(color: Colors.green,),
-    Container(color: Colors.blue,)
+    const Card2(),
+    const Card3(),
 
   ];
   void _onItemTapped(int index){
